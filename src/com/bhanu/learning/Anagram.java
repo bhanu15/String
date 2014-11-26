@@ -6,7 +6,7 @@ public class Anagram {
 
 	public static void main(String[] args) {
 		String str = "Hello World";
-		String str1 = "hello worls";
+		String str1 = "Hello World";
 		char[] chArray = str.toCharArray();
 		char[] chArray1 = str1.toCharArray();
 
@@ -40,5 +40,10 @@ public class Anagram {
 		}
 
 		System.out.println(map);
+		if (map.isEmpty() == true){
+			System.out.println(true);
+		}else{
+			System.out.println(false);
+		}
 	}
 }
