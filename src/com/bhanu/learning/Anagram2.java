@@ -24,7 +24,7 @@ public class Anagram2 {
 		}
 		
 		for(int i :ch){
-			if(i>0){
+			if(i>0 || i<0){
 				return false;
 			}
 		}
